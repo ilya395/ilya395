@@ -91,8 +91,24 @@ header .site-logo a:hover {
 
 }
 
-.site-navigation nav {
-	height: 100%;
+.header-toggler {
+	color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.2);
+}
+.header-toggler-icon {
+	/*
+	display: inline-block;
+	content: "\f0c9";
+	color: rgba(0,0,0,.5);
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	*/
+
+	font-size: 1.8rem;
+}
+
+.site-navigation {
+	padding-left: 60px;
 }
 .site-navigation ul {
 	list-style: none;
