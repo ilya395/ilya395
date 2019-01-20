@@ -220,12 +220,20 @@
 												Ваш адрес электронной почты не будет опубликован. Обязательные поля отмечены *
 											</p>
 											<p class="comment-form-author">
-												<input class="comment-form__field" name="author" type="text" placeholder="Ваше имя *">
+												<input class="comment-form__field" name="author" type="text" placeholder="Ваше имя *" required="required">
 											</p>
-											<p class="comment-form-email"></p>
-											<p class="comment-form-url"></p>
-											<p class="comment-form-comment"></p>
-											<p class="form-submit"></p>
+											<p class="comment-form-email">
+												<input class="comment-form__field" name="email" type="text" placeholder="Ваш e-mail *" required="required">
+											</p>
+											<p class="comment-form-url">
+												<input class="comment-form__field" type="text" name="url" placeholder="Ваш сайт">
+											</p>
+											<p class="comment-form-comment">
+												<textarea class="comment-form__field" name="comment" id="comment" cols="45" rows="8" placeholder="Ваш комментарий *" required="required"></textarea>
+											</p>
+											<p class="form-submit">
+												<input name="submit" type="submit" class="submit" value="Написать комментарий">
+											</p>
 										</form>
 									</div>
 								</div>
