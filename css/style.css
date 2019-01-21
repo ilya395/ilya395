@@ -477,6 +477,57 @@ h2 a:hover {
     margin-top: 40px;
 }
 
+/* contact-content */
+.feedback-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.feedback-form__name, .feedback-form__email {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.feedback-form__name {
+	padding-right: 15px;
+}
+.feedback-form__email{
+	padding-left: 15px;
+}
+.feedback-form__address, .feedback-form__massage {
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+.feedback-form__send {
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+.feedback-form__field {
+	width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #e0e0e2;
+    background-color: #fff;
+    color: #686868;
+    border-radius: 8px;
+}
+.feedback-form__submit {
+	background-color: #c9c9c9;
+    text-decoration: none;
+    padding: 16px 27px 16px 27px;
+    border-radius: 0px 0px 0px 0px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    color: #fff;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    font-size: .8125rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.feedback-form__submit:hover {
+	background-color: #000000;
+    text-decoration: none;
+}
+
 /*
  * sidebar styles
  */
