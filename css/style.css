@@ -76,8 +76,9 @@ h1 a:hovar, h2 a:hovar, h3 a:hovar, h4 a:hovar, h5 a:hovar {
 	width: 100%;
 	margin: 0 auto;
 }
-div {
-
+.wrapper .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
